@@ -1,0 +1,75 @@
+[
+  {
+    "boxes": [
+      {
+        "h": 572.578125,
+        "selector": "#geometryInputs",
+        "text": "Enter load in newtons and dimensions in millimetres. Pitch and lead are different.",
+        "title": "Start with the geometry",
+        "w": 330,
+        "x": 279,
+        "y": 293.796875
+      },
+      {
+        "h": 202.59375,
+        "selector": "#results",
+        "text": "Compare total raising torque, back-drive behaviour and efficiency.",
+        "title": "Read the result",
+        "w": 1104,
+        "x": 657,
+        "y": 159
+      },
+      {
+        "h": 44,
+        "selector": "#save",
+        "text": "Save named alternatives before exporting your comparison.",
+        "title": "Save a run",
+        "w": 76.921875,
+        "x": 1684.078125,
+        "y": 111
+      }
+    ],
+    "height": 1408,
+    "width": 2055,
+    "title": "Actual tool · controls at a glance",
+    "caption": "Actual application screenshot. Numbered boxes point to the controls described below. ",
+    "key": "power-screw"
+  },
+  {
+    "boxes": [
+      {
+        "h": 54,
+        "selector": "#force",
+        "text": "The demo uses newtons and a fixed mean diameter.",
+        "title": "Enter force, not mass",
+        "w": 260,
+        "x": 318,
+        "y": 515.515625
+      },
+      {
+        "h": 39,
+        "selector": "#starts",
+        "text": "Lead changes with pitch × starts.",
+        "title": "Change the thread starts",
+        "w": 260,
+        "x": 320,
+        "y": 686.515625
+      },
+      {
+        "h": 532.9375,
+        "selector": "#result",
+        "text": "Compare raising torque, lowering torque and the simple back-drive test.",
+        "title": "Read calculated behaviour",
+        "w": 517.078125,
+        "x": 1228.90625,
+        "y": 461.515625
+      }
+    ],
+    "height": 1408,
+    "width": 2055,
+    "key": "simulation",
+    "title": "Try the working offline example",
+    "caption": "Screenshot of this project’s interactive demo. Side-by-side services are explicitly simulated.",
+    "cropHeight": 1035.453125
+  }
+]

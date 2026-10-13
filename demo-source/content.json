@@ -1,0 +1,65 @@
+{
+  "slug": "power-screw-workbench",
+  "title": "Power Screw Workbench",
+  "summary": "Compare the geometry, torque and back-driving behaviour of a power screw using an interactive preliminary model. The workspace ties thread inputs to numerical results, an unwrapped-thread explanation and a 3D view, then keeps named design runs for comparison.",
+  "features": [
+    [
+      "Geometry",
+      "Load, major diameter, starts, thread angle, pitch or helix angle, and mean-diameter basis.",
+      "Browser-local"
+    ],
+    [
+      "Materials and friction",
+      "Screw/nut material, manufacturing process, lubrication and supplier/measured friction override.",
+      "Browser-local"
+    ],
+    [
+      "Collar model",
+      "Optional collar friction and mean collar diameter.",
+      "Browser-local"
+    ],
+    [
+      "Live results",
+      "Raising torque, back-drive/lowering behaviour, efficiency and disclosed assumptions.",
+      "Browser-local"
+    ],
+    [
+      "3D and diagrams",
+      "Orbit, zoom, side/end views, rotation and equivalent nut advance; compare thread starts.",
+      "Browser-local"
+    ],
+    [
+      "Saved runs",
+      "Named comparisons and Excel XML, Excel-compatible and JSON exports.",
+      "Browser-local"
+    ]
+  ],
+  "workflows": [
+    [
+      "Define a meaningful case",
+      [
+        "Give the run a name, then enter axial force in N and dimensions in mm. Do not enter mass where a force is requested.",
+        "Select Pitch or Helix angle as the independent input. Check thread starts: lead is starts multiplied by pitch, so one turn can advance more than one pitch.",
+        "Use a measured/supplier mean diameter when available instead of silently treating the preliminary estimate as a standard thread specification."
+      ]
+    ],
+    [
+      "Interpret torque and back-driving",
+      [
+        "Open Materials and choose the relevant material/process/lubrication conditions. Replace estimated friction with measured or supplier values when available.",
+        "Enable Collar only when the intended assembly has that friction contribution and enter its mean diameter and coefficient.",
+        "Read the thread-alone and total screw-plus-collar results separately. Expand the equations and sign convention before interpreting a negative lowering torque.",
+        "Change one input at a time and save named runs. A back-drivable result depends on the entered assumptions; it is not a brake or safety-system approval."
+      ]
+    ],
+    [
+      "Inspect and compare designs",
+      [
+        "Orbit the 3D screw or choose Side/End and use rotation to see equivalent nut advance. The shown length/root diameter also affect the illustration.",
+        "Expand Compare 2, 3 & 4 starts and the unwrapped-thread diagrams to understand why a geometry change changes lead and torque.",
+        "Save run, export JSON for restorable data, and use Excel-compatible outputs for a report. Restore JSON when continuing on another browser."
+      ]
+    ]
+  ],
+  "limits": "This is a preliminary geometry/friction model. It does not replace checking buckling, fatigue, thread strength, lubrication variation and the actual assembly. No new engineering validation was performed during documentation work."
+}
