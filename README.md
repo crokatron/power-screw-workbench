@@ -4,7 +4,9 @@
 
 Compare the geometry, torque and back-driving behaviour of a power screw using an interactive preliminary model. The workspace ties thread inputs to numerical results, an unwrapped-thread explanation and a 3D view, then keeps named design runs for comparison.
 
-**Private preview · not published.**
+[Publication checks and remaining limits](docs/PUBLICATION.md)
+
+**Public source preview · MIT for original contributions.**
 
 [Open the visual manual](docs/USER-MANUAL.md) · [Download the self-contained demo](demo.html) · [Release notes](CHANGELOG.md)
 

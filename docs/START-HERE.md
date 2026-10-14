@@ -12,4 +12,4 @@ Explores screw geometry, force, pitch/starts, friction and torque/backdriving as
 
 **Next maintainer action:** Check hand-calculated unit cases, starts×pitch lead, friction and collar assumptions, then restore an exported run in a clean browser. Independently check buckling, fatigue, thread strength and the actual assembly; the demo uses a reduced square-thread/no-collar model.
 
-**Status:** private upload verified on 14 October 2026. These guides accompany the private source package. Live runtime, data backups and full recovery were not retested. Public release needs separate approval.
+**Status:** private upload verified on 14 October 2026. These guides accompany the source package. Live runtime, data backups and full recovery were not retested. Public sharing was authorised on 14 October 2026; the NAS backup remains private.
